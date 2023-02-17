@@ -47,13 +47,17 @@ header img {
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  gap: 25px;
 }
 
-footer button {
+.button {
   display: flex;
-  align-itens: center;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  align-items: center;
   object-fit: contain;
   gap: 18px;
   border-radius: 5px;
@@ -63,17 +67,17 @@ footer button {
   cursor: pointer;
 }
 
-footer span {
+button img {
+  width: 35px;
+  height: 25px;
+}
+
+button span {
   color: var(--text-dark);
   font-weight: 700;
 }
 
-footer p {
+.subtitle p {
   max-width: 400px;
   text-align: center;
-}
-
-footer img {
-  width: 35px;
-  height: 25px;
 }
